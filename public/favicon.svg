@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E4626" />
+      <stop offset="100%" stop-color="#0E2313" />
+    </linearGradient>
+
+    <!-- Golden Orbit Ring Gradient -->
+    <linearGradient id="orbitGrad" x1="10" y1="48" x2="54" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="35%" stop-color="#C49A45" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+
+    <!-- Golden Seed Gradient -->
+    <linearGradient id="seedGrad" x1="24" y1="34" x2="40" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+
+    <!-- Lush Sprouting Leaf Gradient -->
+    <linearGradient id="leafGrad1" x1="16" y1="12" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#86EFAC" />
+      <stop offset="45%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#15803D" />
+    </linearGradient>
+
+    <!-- Secondary Sprouting Leaf Gradient -->
+    <linearGradient id="leafGrad2" x1="48" y1="14" x2="32" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#BBF7D0" />
+      <stop offset="50%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Emblem Background -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="#C49A45" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Inner Soft Accent Ring -->
+  <rect x="4.5" y="4.5" width="55" height="55" rx="14" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.15" />
+
+  <!-- Back Orbit Arch (behind the leaves) -->
+  <path
+    d="M 12 40 C 14 26, 32 18, 48 20 C 53 21, 56 23, 56 25"
+    stroke="url(#orbitGrad)"
+    stroke-width="2.6"
+    stroke-linecap="round"
+    opacity="0.45"
+  />
+
+  <!-- Main Left Leaf (Large curving botanical leaf) -->
+  <path
+    d="M 32 36 
+       C 24 35, 14 27, 16 16 
+       C 26 15, 34 22, 32 36 Z"
+    fill="url(#leafGrad1)"
+    stroke="#064E3B"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+    filter="url(#shadow)"
+  />
+
+  <!-- Left Leaf Center Vein -->
+  <path
+    d="M 31 34 C 27 28, 22 23, 19 18"
+    stroke="#DCFCE7"
+    stroke-width="0.9"
+    stroke-linecap="round"
+    opacity="0.85"
+  />
+
+  <!-- Secondary Right Leaf (Fresh sprout unfurling) -->
+  <path
+    d="M 32 37 
+       C 37 32, 48 27, 46 17 
+       C 38 18, 32 25, 32 37 Z"
+    fill="url(#leafGrad2)"
+    stroke="#064E3B"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+    filter="url(#shadow)"
+  />
+
+  <!-- Right Leaf Center Vein -->
+  <path
+    d="M 33 35 C 37 29, 41 24, 43 19"
+    stroke="#DCFCE7"
+    stroke-width="0.8"
+    stroke-linecap="round"
+    opacity="0.8"
+  />
+
+  <!-- Golden Orbit Foreground Ring (wrapping around the front of the seed) -->
+  <path
+    d="M 52 24 C 54 28, 48 37, 34 44 C 20 51, 9 51, 8 45 C 7 42, 10 37, 16 32"
+    stroke="url(#orbitGrad)"
+    stroke-width="3"
+    stroke-linecap="round"
+    filter="url(#shadow)"
+  />
+
+  <!-- Small Orbiting Golden Satellite/Seed Sparkle -->
+  <circle cx="51.5" cy="24.5" r="2.2" fill="#FEF08A" stroke="#B45309" stroke-width="0.6" />
+  <circle cx="51.5" cy="24.5" r="0.9" fill="#FFFFFF" />
+
+  <!-- Golden Agricultural Seed Kernel at Base -->
+  <path
+    d="M 32 28 
+       C 39 31, 42 41, 35 48 
+       C 28 53, 23 45, 25 38 
+       C 26 33, 29 29, 32 28 Z"
+    fill="url(#seedGrad)"
+    stroke="#451A03"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+    filter="url(#shadow)"
+  />
+
+  <!-- Seed Furrow / Germination Center Line -->
+  <path
+    d="M 32 30 C 33 36, 31 43, 29 47"
+    stroke="#542106"
+    stroke-width="1"
+    stroke-linecap="round"
+  />
+
+  <!-- Sunlight highlight reflection on seed -->
+  <path
+    d="M 33 32 C 37 35, 37 41, 34 45"
+    stroke="#FEF9C3"
+    stroke-width="0.9"
+    stroke-linecap="round"
+    opacity="0.9"
+  />
+</svg>

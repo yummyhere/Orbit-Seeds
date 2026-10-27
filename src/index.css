@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-script: "Caveat", cursive;
+  --font-urdu: "Noto Nastaliq Urdu", serif;
+  --color-brand-deep: #16361E;
+  --color-brand-forest: #22512D;
+  --color-brand-sage: #EEF4EE;
+  --color-brand-cream: #FBF9F4;
+  --color-brand-gold: #C49A45;
+  --color-brand-charcoal: #252E27;
+  --color-brand-border: #E2E8DF;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FBF9F4;
+  color: #252E27;
+  cursor: url("/seed-cursor.svg") 3 3, url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%20fill%3D%22none%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22seedGold%22%20x1%3D%223%22%20y1%3D%223%22%20x2%3D%2222%22%20y2%3D%2222%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FDE68A%22%2F%3E%3Cstop%20offset%3D%2240%25%22%20stop-color%3D%22%23D97706%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2378350F%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M4%205%20C9%205%2021%209%2023%2016%20C24%2021%2020%2025%2014%2024%20C8%2022%204%2011%204%205%20Z%22%20fill%3D%22rgba(0%2C0%2C0%2C0.35)%22%2F%3E%3Cpath%20d%3D%22M3%203%20C8%203%2020%207%2022%2014%20C23%2019%2019%2023%2013%2022%20C7%2020%203%209%203%203%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M3%203%20C8%203%2020%207%2022%2014%20C23%2019%2019%2023%2013%2022%20C7%2020%203%209%203%203%20Z%22%20fill%3D%22url(%23seedGold)%22%20stroke%3D%22%23261A0C%22%20stroke-width%3D%221.2%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M5%205%20C9%209%2014%2014%2015%2019%22%20stroke%3D%22%23451A03%22%20stroke-width%3D%221.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M5%204%20C9%205%2016%208%2018%2012%22%20stroke%3D%22%23FEF3C7%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%20opacity%3D%220.9%22%2F%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%221.2%22%20fill%3D%22%23FFFFFF%22%2F%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%220.8%22%20fill%3D%22%23451A03%22%2F%3E%3C%2Fsvg%3E") 3 3, auto;
+}
+
+html {
+  cursor: url("/seed-cursor.svg") 3 3, url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%20fill%3D%22none%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22seedGold%22%20x1%3D%223%22%20y1%3D%223%22%20x2%3D%2222%22%20y2%3D%2222%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FDE68A%22%2F%3E%3Cstop%20offset%3D%2240%25%22%20stop-color%3D%22%23D97706%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2378350F%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M4%205%20C9%205%2021%209%2023%2016%20C24%2021%2020%2025%2014%2024%20C8%2022%204%2011%204%205%20Z%22%20fill%3D%22rgba(0%2C0%2C0%2C0.35)%22%2F%3E%3Cpath%20d%3D%22M3%203%20C8%203%2020%207%2022%2014%20C23%2019%2019%2023%2013%2022%20C7%2020%203%209%203%203%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M3%203%20C8%203%2020%207%2022%2014%20C23%2019%2019%2023%2013%2022%20C7%2020%203%209%203%203%20Z%22%20fill%3D%22url(%23seedGold)%22%20stroke%3D%22%23261A0C%22%20stroke-width%3D%221.2%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M5%205%20C9%209%2014%2014%2015%2019%22%20stroke%3D%22%23451A03%22%20stroke-width%3D%221.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M5%204%20C9%205%2016%208%2018%2012%22%20stroke%3D%22%23FEF3C7%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%20opacity%3D%220.9%22%2F%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%221.2%22%20fill%3D%22%23FFFFFF%22%2F%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%220.8%22%20fill%3D%22%23451A03%22%2F%3E%3C%2Fsvg%3E") 3 3, auto;
+}
+
+/* Custom Agricultural Seed Cursor for Interactive Elements */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+select,
+summary,
+label[for],
+.cursor-pointer,
+[tabindex]:not([tabindex="-1"]) {
+  cursor: url("/seed-pointer.svg") 3 3, url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22sproutSeedGrad%22%20x1%3D%223%22%20y1%3D%223%22%20x2%3D%2222%22%20y2%3D%2222%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23BBF7D0%22%2F%3E%3Cstop%20offset%3D%2245%25%22%20stop-color%3D%22%2315803D%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052E16%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22leafGrad%22%20x1%3D%2210%22%20y1%3D%224%22%20x2%3D%2223%22%20y2%3D%224%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2386EFAC%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2316A34A%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M4%205%20C9%205%2021%209%2023%2016%20C24%2021%2020%2025%2014%2024%20C8%2022%204%2011%204%205%20Z%22%20fill%3D%22rgba(0%2C0%2C0%2C0.35)%22%2F%3E%3Cpath%20d%3D%22M10%205%20C13%200%2020%200%2022%204%20C19%208%2014%207%2010%205%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M10%205%20C13%200%2020%200%2022%204%20C19%208%2014%207%2010%205%20Z%22%20fill%3D%22url(%23leafGrad)%22%20stroke%3D%22%23052E16%22%20stroke-width%3D%221.2%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M11%204.5%20C14%202.5%2017%203%2020%204%22%20stroke%3D%22%23DCFCE7%22%20stroke-width%3D%220.8%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M3%203%20C8%203%2020%207%2022%2014%20C23%2019%2019%2023%2013%2022%20C7%2020%203%209%203%203%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M3%203%20C8%203%2020%207%2022%2014%20C23%2019%2019%2023%2013%2022%20C7%2020%203%209%203%203%20Z%22%20fill%3D%22url(%23sproutSeedGrad)%22%20stroke%3D%22%23052E16%22%20stroke-width%3D%221.2%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M5%205%20C9%209%2014%2014%2015%2019%22%20stroke%3D%22%23052E16%22%20stroke-width%3D%221.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M5%204%20C9%205%2016%208%2018%2012%22%20stroke%3D%22%23DCFCE7%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%20opacity%3D%220.95%22%2F%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%221.3%22%20fill%3D%22%23FFFFFF%22%2F%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%220.8%22%20fill%3D%22%2315803D%22%2F%3E%3C%2Fsvg%3E") 3 3, pointer !important;
+}
+
+/* Maintain convenient text editing cursor in forms */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="number"],
+textarea {
+  cursor: text;
+}
+
+.font-serif-display {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-handwriting {
+  font-family: "Caveat", cursive;
+}
+
+*:focus-visible {
+  outline: 2px solid #22512D;
+  outline-offset: 2px;
+}

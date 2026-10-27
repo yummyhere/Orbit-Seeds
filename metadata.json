@@ -1,0 +1,6 @@
+{
+  "name": "Orbit Seeds (Pvt.) Ltd.",
+  "description": "Premium seed research, agricultural catalog, dealer booking platform, and seed-lot ERP interface for Orbit Seeds (Pvt.) Ltd., Vehari, Punjab, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
