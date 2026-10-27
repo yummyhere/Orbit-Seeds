@@ -65,7 +65,7 @@ export const About: React.FC = () => {
 
         <div className="lg:col-span-5 relative aspect-[4/3] rounded-2xl overflow-hidden border border-[#E1E5DC] shadow-sm">
           <img
-            src="/src/assets/images/seed_research_field_1793084849237.jpg"
+            src="/images/seed_research_field_1793084849237.jpg"
             alt="Orbit Seeds research and trial fields in Vehari"
             className="w-full h-full object-cover"
           />

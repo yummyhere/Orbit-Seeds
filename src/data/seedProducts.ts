@@ -20,7 +20,7 @@ export const SEED_PRODUCTS: SeedProduct[] = [
     ],
     sowingWindow: 'April 15 - May 31 (Regional guideline)',
     seedRatePerAcre: '6 - 8 kg per acre (Delinted seed)',
-    image: '/src/assets/images/cotton_seed_crop_1793084847344.jpg',
+    image: '/images/cotton_seed_crop_1793084847344.jpg',
     isDemonstration: true,
   },
   {
@@ -41,7 +41,7 @@ export const SEED_PRODUCTS: SeedProduct[] = [
     ],
     sowingWindow: 'April 1 - April 30',
     seedRatePerAcre: '7 - 9 kg per acre',
-    image: '/src/assets/images/cotton_seed_crop_1793084847344.jpg',
+    image: '/images/cotton_seed_crop_1793084847344.jpg',
     isDemonstration: true,
   },
   {
@@ -63,7 +63,7 @@ export const SEED_PRODUCTS: SeedProduct[] = [
     ],
     sowingWindow: 'November 1 - November 25 (Optimal yield window)',
     seedRatePerAcre: '40 - 50 kg per acre',
-    image: '/src/assets/images/wheat_seed_crop_1793084847876.jpg',
+    image: '/images/wheat_seed_crop_1793084847876.jpg',
     isDemonstration: true,
   },
   {
@@ -84,7 +84,7 @@ export const SEED_PRODUCTS: SeedProduct[] = [
     ],
     sowingWindow: 'December 1 - December 20',
     seedRatePerAcre: '50 - 60 kg per acre',
-    image: '/src/assets/images/wheat_seed_crop_1793084847876.jpg',
+    image: '/images/wheat_seed_crop_1793084847876.jpg',
     isDemonstration: true,
   },
   {
@@ -106,7 +106,7 @@ export const SEED_PRODUCTS: SeedProduct[] = [
     ],
     sowingWindow: 'Spring: Feb 1 - Mar 10 | Autumn: July 20 - Aug 15',
     seedRatePerAcre: '8 - 10 kg per acre (or 32,000 - 35,000 plants/acre)',
-    image: '/src/assets/images/hybrid_corn_crop_1793084849344.jpg',
+    image: '/images/hybrid_corn_crop_1793084849344.jpg',
     isDemonstration: true,
   },
   {
@@ -126,7 +126,7 @@ export const SEED_PRODUCTS: SeedProduct[] = [
     ],
     sowingWindow: 'February - March & July - August',
     seedRatePerAcre: '10 - 12 kg per acre',
-    image: '/src/assets/images/hybrid_corn_crop_1793084849344.jpg',
+    image: '/images/hybrid_corn_crop_1793084849344.jpg',
     isDemonstration: true,
   },
 ];

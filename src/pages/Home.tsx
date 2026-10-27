@@ -82,7 +82,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden aspect-[4/3] sm:aspect-[5/4] shadow-md border border-[#E2E8DF]">
                 <img
-                  src="/src/assets/images/hero_agricultural_field_1793084847501.jpg"
+                  src="/images/hero_agricultural_field_1793084847501.jpg"
                   alt="Punjab agricultural farmland with crops and canal"
                   className="w-full h-full object-cover"
                   loading="eager"
@@ -141,7 +141,7 @@ export const Home: React.FC = () => {
             <div className="bg-[#FBF9F4] rounded-2xl overflow-hidden border border-[#E2E8DF] flex flex-col justify-between hover:shadow-md transition-shadow group">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
-                  src="/src/assets/images/cotton_seed_crop_1793084847344.jpg"
+                  src="/images/cotton_seed_crop_1793084847344.jpg"
                   alt="Cotton crop"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -173,7 +173,7 @@ export const Home: React.FC = () => {
             <div className="bg-[#FBF9F4] rounded-2xl overflow-hidden border border-[#E2E8DF] flex flex-col justify-between hover:shadow-md transition-shadow group">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
-                  src="/src/assets/images/wheat_seed_crop_1793084847876.jpg"
+                  src="/images/wheat_seed_crop_1793084847876.jpg"
                   alt="Wheat crop"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -207,7 +207,7 @@ export const Home: React.FC = () => {
             <div className="bg-[#FBF9F4] rounded-2xl overflow-hidden border border-[#E2E8DF] flex flex-col justify-between hover:shadow-md transition-shadow group">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
-                  src="/src/assets/images/hybrid_corn_crop_1793084849344.jpg"
+                  src="/images/hybrid_corn_crop_1793084849344.jpg"
                   alt="Hybrid corn crop"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -241,7 +241,7 @@ export const Home: React.FC = () => {
             <div className="bg-[#FBF9F4] rounded-2xl overflow-hidden border border-[#E2E8DF] flex flex-col justify-between hover:shadow-md transition-shadow group">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
-                  src="/src/assets/images/seed_research_field_1793084849237.jpg"
+                  src="/images/seed_research_field_1793084849237.jpg"
                   alt="Fodder and Silage crops"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -369,7 +369,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative aspect-[4/3] sm:aspect-[5/4] rounded-t-[120px] rounded-b-xl overflow-hidden bg-[#EEF4EE]">
                 <img
-                  src="/src/assets/images/seed_research_field_1793084849237.jpg"
+                  src="/images/seed_research_field_1793084849237.jpg"
                   alt="Orbit Seeds research and cultivation plots"
                   className="w-full h-full object-cover block"
                 />
